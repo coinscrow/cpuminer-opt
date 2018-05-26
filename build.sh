@@ -25,3 +25,5 @@ CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
 make -j 4
 
 strip -s cpuminer
+
+echo "Done"
